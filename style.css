@@ -1,0 +1,73 @@
+
+                        /* - Mobile: 375px
+                        - Desktop: 1440px */
+
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+                        /* headings 400 600 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+        /* 400 600 font-family: 'Poppins', sans-serif; */
+
+                        /* body */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+        /* font-family: 'Open Sans', sans-serif; */
+
+.logo{
+    width: 40%;
+    margin: 1.5em 2em 0;
+}
+
+.illustration{
+    width: 80%;
+    margin: 4em 2em 2em;
+}
+
+body{
+    background-color: var(--Violet);
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+}
+
+.typo{
+    color: #fff;
+    text-align: center;
+    margin: 0 1em;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.6em;
+}
+
+.typo p{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 400;
+    line-height: 1.5;
+    font-size: 16px;
+    margin: 0 1em;
+    color: rgba(255, 255, 255, 0.835);
+}
+
+.btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--Violet);
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    border-radius: 3em;
+    margin-top: 2em;
+    margin-left: 4em;
+    padding: 1em 0.5em;
+    background-color: #fff;
+}
+
+.attribution { font-size: 12px; text-align: center; }
+.attribution a { color: #fff }
